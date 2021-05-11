@@ -1,9 +1,6 @@
 .row
 {
-    display: flex;
-    text-align: center;
     line-height: 200px;
-    margin: auto;
 }
 
 .row> div{
@@ -12,10 +9,13 @@
     background-color: pink;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .row>div>div
 {
     background-color: salmon;
     border: 1px solid white;
+    height: 199px;
+    text-align: center;
 }
