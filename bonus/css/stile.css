@@ -1,0 +1,52 @@
+.row
+{
+    line-height: 200px;
+    width: 1200px;
+}
+
+.row> div{
+    height: 20px;
+    display: flex;
+}
+
+.row>div>div
+{
+    background-color: salmon;
+    height: 20px;
+    display: flex;
+}
+
+.row>div>div>div
+{
+    border: 1px solid black;
+
+}
+
+.orange
+{
+    background-color: rgb(160, 121, 47);
+}
+
+.black
+{
+    background-color: rgb(27, 25, 25);
+}
+
+.light-orange
+{
+    background-color: orange;
+}
+
+.light-grey
+{
+    background-color: lightgrey;
+}
+
+.grey{
+    background-color: grey;
+}
+
+.yellow
+{
+    background-color: rgb(155, 175, 66);
+}
