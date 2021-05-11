@@ -1,0 +1,21 @@
+.row
+{
+    display: flex;
+    text-align: center;
+    line-height: 200px;
+    margin: auto;
+}
+
+.row> div{
+    border: 1px solid black;
+    height: 200px;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+}
+
+.row>div>div
+{
+    background-color: salmon;
+    border: 1px solid white;
+}
